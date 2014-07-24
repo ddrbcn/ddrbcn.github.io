@@ -24,7 +24,7 @@ m1 <- mPlot(x = "date", y = c("psavert", "uempmed"), type = "Line", data = econ)
 m1
 ```
 
---- 
+--- .class #id
 
 ## Stock Shiny  App
 
