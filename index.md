@@ -1,0 +1,63 @@
+---
+title       : Shiny Stock App
+subtitle    : Shiny Stock App
+author      : ddrbcn
+job         : Student
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+
+---  
+## Psychology of the Stock
+Human psychology is an important factor when trading stocks.
+
+Emotions and the will of the traders determine in some sense the future of the stock.
+
+<iframe src=' assets/fig/ichart.html ' scrolling='no' frameBorder='0' seamless class='rChart morris ' id=iframe- chart18ac1847c879 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+
+--- .class #id
+
+## Stock Shiny  App
+
+### This app predicts the future behaviour of the Stock just calculating the ratio of people predicting that:
+
+1. The stock will go up
+2. The stock will go down
+3. The stock will remain equal.
+
+--- 
+## How to...
+
+### Steps
+1. You must select your estimation and click the "Submit" button (the ratios will be updated according to the entered value).
+2. You should install and load both libraries "shiny" and "shinyapps" before run locally this app in R.
+3. If you have not installed the libraries you can install both libraries in the usual way from your R console:
+
+### install.packages("shiny")
+
+### install.packages("shinyapps")
+
+--- 
+Then run:
+
+### library(shiny)
+
+### library(shinyapps) .
+
+At this point you will be able to run the app locally running runApp("ShinyApp") from the folder containing the files server.R and ui.R.
+
+
+
+
+### Note: For some reason if you run runApp() in R the app will run ok, but if you try deployApp() the app will update the values in a wrong way.
+
+## _________________________________________________________________
+## _________________________________________________________________
+
+## Thank you very much!
+
+
+

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shiny Stock App</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Shiny Stock App">
+  <meta name="author" content="ddrbcn">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Shiny Stock App</h1>
+    <h2>Shiny Stock App</h2>
+    <p>ddrbcn<br/>Student</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Psychology of the Stock</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Human psychology is an important factor when trading stocks.</p>
+
+<p>Emotions and the will of the traders determine in some sense the future of the stock.</p>
+
+<p><iframe src=' assets/fig/ichart.html ' scrolling='no' frameBorder='0' seamless class='rChart morris ' id=iframe- chart18ac1847c879 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Stock Shiny  App</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>This app predicts the future behaviour of the Stock just calculating the ratio of people predicting that:</h3>
+
+<ol>
+<li>The stock will go up</li>
+<li>The stock will go down</li>
+<li>The stock will remain equal.</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>How to...</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Steps</h3>
+
+<ol>
+<li>You must select your estimation and click the &quot;Submit&quot; button (the ratios will be updated according to the entered value).</li>
+<li>You should install and load both libraries &quot;shiny&quot; and &quot;shinyapps&quot; before run locally this app in R.</li>
+<li>If you have not installed the libraries you can install both libraries in the usual way from your R console:</li>
+</ol>
+
+<h3>install.packages(&quot;shiny&quot;)</h3>
+
+<h3>install.packages(&quot;shinyapps&quot;)</h3>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <article data-timings="">
+    <p>Then run:</p>
+
+<h3>library(shiny)</h3>
+
+<h3>library(shinyapps) .</h3>
+
+<p>At this point you will be able to run the app locally running runApp(&quot;ShinyApp&quot;) from the folder containing the files server.R and ui.R.</p>
+
+<h3>Note: For some reason if you run runApp() in R the app will run ok, but if you try deployApp() the app will update the values in a wrong way.</h3>
+
+<h2>_________________________________________________________________</h2>
+
+<h2>_________________________________________________________________</h2>
+
+<h2>Thank you very much!</h2>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Psychology of the Stock'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Stock Shiny  App'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='How to...'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title=''>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
