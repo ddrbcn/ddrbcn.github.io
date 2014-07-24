@@ -9,8 +9,6 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
-runtime     : shiny
-output      : ioslides_presentation
 
 ---  
 ## Psychology of the Stock
@@ -18,13 +16,7 @@ Human psychology is an important factor when trading stocks.
 
 Emotions and the will of the traders determine in some sense the future of the stock.
 
-```{r ichart, results = 'asis', comment = NA, message = F, echo = F}
-require(rCharts)
-data(economics, package = "ggplot2")
-econ <- transform(economics, date = as.character(date))
-m1 <- mPlot(x = "date", y = c("psavert", "uempmed"), type = "Line", data = econ)
-m1
-```
+
 
 --- .class #id
 
