@@ -18,7 +18,7 @@ Emotions and the will of the traders determine in some sense the future of the s
 
 <iframe src=' assets/fig/ichart.html ' scrolling='no' frameBorder='0' seamless class='rChart morris ' id=iframe- chart18ac7d1b8b95 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
---- .class #id
+--- 
 
 ## Stock Shiny  App
 
