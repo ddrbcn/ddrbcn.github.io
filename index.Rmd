@@ -9,7 +9,8 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
-markdown    : kramdown
+runtime     : shiny
+output      : ioslides_presentation
 
 ---  
 ## Psychology of the Stock
