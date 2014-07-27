@@ -20,4 +20,5 @@ That's why I do not send the direct link to the webpage but the link to the repo
 But, as you can see, there are not markdown errors because you will be able to see the presentation locally including the 
 embedded R code that runs when slidifying the document showing a pretty chart.
 
-**Note: Finally I proceeded to delete the index.md file and now we can see the presentation online at http://ddrbcn.github.io**
+**Note: Finally I proceeded to delete the index.md file and now we can see the presentation online at http://ddrbcn.github.io.**
+**Note: I have detected some problems using Firefox. Sometimes the chart is not showed.**
